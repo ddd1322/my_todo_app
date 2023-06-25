@@ -12,7 +12,7 @@ def add_todo():
 
 
 st.title('todo manager'.upper())
-st.subheader('aap is to manage your todo'.title())
+st.subheader('This app is to manage your todo'.title())
 
 for index, todo in enumerate(todos):
     checkbox = st.checkbox(todo, key=todo)
